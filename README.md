@@ -43,7 +43,7 @@ Flags
 - [--skip, -s]: takes default branch to clone
 - [--no-git, -g]: skip git init
 
-## TODO's
+## TODO
 
 - A facy wizard
 
