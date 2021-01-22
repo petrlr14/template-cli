@@ -1,0 +1,39 @@
+{
+  "name": "generate-template",
+  "version": "1.0.0",
+  "description": "A project generator based on templates",
+  "main": "bin/index.js",
+  "bin": {
+    "generate-template": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrlr14/template-cli"
+  },
+  "keywords": [
+    "cli",
+    "templates"
+  ],
+  "author": "petrlr14",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petrlr14/template-cli/issues"
+  },
+  "homepage": "https://github.com/petrlr14/template-cli#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.22"
+  },
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.1",
+    "shelljs": "^0.8.4"
+  }
+}
